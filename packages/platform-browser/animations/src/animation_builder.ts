@@ -7,7 +7,7 @@
  */
 import {AnimationBuilder, AnimationFactory, AnimationMetadata, AnimationOptions, AnimationPlayer, NoopAnimationPlayer, sequence} from '@angular/animations';
 import {Inject, Injectable, RendererFactory2, RendererType2, ViewEncapsulation} from '@angular/core';
-import {DOCUMENT} from '@angular/platform-browser';
+import {DOCUMENT} from '../..';
 
 import {AnimationRenderer} from './animation_renderer';
 
